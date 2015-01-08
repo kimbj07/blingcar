@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.redwood-inc.washingcar.test">
+	<!--
+	SQLID			: selectAdminGameMbrIdList
+	쿼리설명			: 어드민 사용자 게임내 계정정보 조회
+	쿼리종류/빈도 	: OLTP / 하
+	변수설명			: 
+	구동위치(대상서버): fbd_i 
+	-->	
+	<select id="test" resultType="String">
+		SELECT 1
+	</select>
+</mapper>
